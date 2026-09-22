@@ -1,8 +1,8 @@
-<a class="work-card" href="{{ work.url }}">
+<a class="work-card" href="{{ work.url | url }}">
   <div class="work-image-wrap">
     <img
       class="work-image"
-      src="{{ work.data.image }}"
+      src="{{ work.data.image | url }}"
       alt="{{ work.data.imageAlt or work.data.title }}"
       loading="lazy"
       width="1600"

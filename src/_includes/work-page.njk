@@ -4,7 +4,7 @@ layout: base.njk
 
 <article class="work-page">
   <header class="work-intro">
-    <a class="back-link" href="/#selected-works">← Selected Works</a>
+    <a class="back-link" href="{{ '/#selected-works' | url }}">← Selected Works</a>
 
     <div class="work-title-row">
       <div>
@@ -27,7 +27,7 @@ layout: base.njk
     {% if gallery %}
       {% for image in gallery %}
         <figure class="gallery-item {% if loop.index == 1 %}gallery-item-large{% endif %}">
-          <img src="{{ image.src }}" alt="{{ image.alt or title }}" loading="{% if loop.index == 1 %}eager{% else %}lazy{% endif %}">
+          <img src="{{ image.src | url }}" alt="{{ image.alt or title }}" loading="{% if loop.index == 1 %}eager{% else %}lazy{% endif %}">
           {% if image.caption %}
             <figcaption>{{ image.caption }}</figcaption>
           {% endif %}
@@ -35,7 +35,7 @@ layout: base.njk
       {% endfor %}
     {% else %}
       <figure class="gallery-item gallery-item-large">
-        <img src="{{ image }}" alt="{{ imageAlt or title }}">
+        <img src="{{ image | url }}" alt="{{ imageAlt or title }}">
       </figure>
     {% endif %}
   </div>

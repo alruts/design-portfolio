@@ -14,6 +14,7 @@ module.exports = function (eleventyConfig) {
   });
 
   return {
+    pathPrefix: "/design-portfolio/",
     dir: {
       input: "src",
       output: "_site",
