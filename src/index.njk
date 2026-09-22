@@ -1,0 +1,53 @@
+---
+layout: base.njk
+title: Home
+---
+
+<section class="hero">
+  <p class="eyebrow">Graphic Designer / Art Director</p>
+  <h1>{{ site.name }}</h1>
+  <h2>Simple ideas,<br>carefully made.</h2>
+  <p class="hero-description">
+    I create identities, editorial systems, websites and visual worlds
+    for people and organizations with something worth saying.
+  </p>
+</section>
+
+<section class="works-section" id="selected-works">
+  <div class="section-heading">
+    <h2>Selected Works</h2>
+    <span>{{ collections.selectedWorks.length }} projects</span>
+  </div>
+
+  <div class="works-grid">
+    {% for work in collections.selectedWorks %}
+      {% include "work-card.njk" %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="about-section" id="about">
+  <div class="section-heading">
+    <h2>About</h2>
+  </div>
+
+  <div class="about-grid">
+    <p>
+      Independent graphic designer working across identity, print and digital.
+      I like clear systems, strong typography and work that leaves room for
+      people to think.
+    </p>
+    <p>
+      Available for selected freelance collaborations, art direction and
+      identity projects.
+    </p>
+  </div>
+</section>
+
+<section class="contact-section" id="contact">
+  <div class="section-heading">
+    <h2>Contact</h2>
+  </div>
+
+  <a class="big-link" href="mailto:{{ site.email }}">{{ site.email }} ↗</a>
+</section>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100">
+  <rect width="1600" height="1100" fill="#e8e6df"/>
+  <circle cx="800" cy="550" r="330" fill="#161616"/>
+  <rect x="650" y="400" width="300" height="300" fill="#e85d2a" transform="rotate(45 800 550)"/>
+  <text x="90" y="980" font-family="monospace" font-size="48" fill="#161616">QUIET OBJECTS / 01</text>
+</svg>

@@ -1,0 +1,28 @@
+<a class="work-card" href="{{ work.url }}">
+  <div class="work-image-wrap">
+    <img
+      class="work-image"
+      src="{{ work.data.image }}"
+      alt="{{ work.data.imageAlt or work.data.title }}"
+      loading="lazy"
+      width="1600"
+      height="1100"
+    >
+  </div>
+
+  <div class="work-meta">
+    <div>
+      <h2>{{ work.data.title }}</h2>
+      {% if work.data.client %}
+        <p>{{ work.data.client }}</p>
+      {% endif %}
+    </div>
+
+    <div class="work-meta-right">
+      {% if work.data.year %}
+        <p>{{ work.data.year }}</p>
+      {% endif %}
+      <span class="arrow" aria-hidden="true">↗</span>
+    </div>
+  </div>
+</a>

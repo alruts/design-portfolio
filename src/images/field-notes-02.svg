@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100">
+  <rect width="1600" height="1100" fill="#dedbd2"/>
+  <rect x="140" y="120" width="620" height="860" fill="#f7f6f1"/>
+  <rect x="840" y="120" width="620" height="860" fill="#f7f6f1"/>
+  <circle cx="450" cy="430" r="210" fill="#2e5c52"/>
+  <rect x="1030" y="310" width="240" height="380" fill="#111"/>
+  <text x="180" y="900" font-family="monospace" font-size="34" fill="#111">FIELD NOTES / SPREAD</text>
+</svg>

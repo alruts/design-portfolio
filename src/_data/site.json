@@ -1,0 +1,10 @@
+{
+  "name": "John Doe",
+  "description": "Graphic designer and art director.",
+  "location": "Based in Copenhagen",
+  "email": "hello@example.com",
+  "social": [
+    { "label": "Instagram", "url": "https://instagram.com/", "icon": "instagram" },
+    { "label": "Are.na", "url": "https://www.are.na/", "icon": "arena" }
+  ]
+}

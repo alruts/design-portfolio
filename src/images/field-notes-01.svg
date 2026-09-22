@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100">
+  <rect width="1600" height="1100" fill="#f0efe9"/>
+  <text x="120" y="220" font-family="sans-serif" font-weight="700" font-size="150" fill="#111">FIELD</text>
+  <text x="120" y="370" font-family="sans-serif" font-weight="700" font-size="150" fill="#111">NOTES</text>
+  <line x1="120" y1="450" x2="1480" y2="450" stroke="#111" stroke-width="4"/>
+  <text x="120" y="560" font-family="monospace" font-size="44" fill="#111">ISSUE 04 — LANDSCAPE / SPACE / TIME</text>
+  <circle cx="1300" cy="780" r="180" fill="#2e5c52"/>
+</svg>

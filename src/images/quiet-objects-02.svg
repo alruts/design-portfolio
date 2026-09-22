@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100">
+  <rect width="1600" height="1100" fill="#161616"/>
+  <rect x="170" y="170" width="1260" height="760" fill="#e8e6df"/>
+  <circle cx="800" cy="550" r="180" fill="#e85d2a"/>
+  <text x="220" y="860" font-family="monospace" font-size="48" fill="#161616">FORM / MATERIAL / USE</text>
+</svg>
