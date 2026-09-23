@@ -1,22 +1,10 @@
 ---
 layout: base.njk
-title: Home
 ---
-
-<section class="hero">
-  <p class="eyebrow">Graphic Designer / Art Director</p>
-  <h1>{{ site.name }}</h1>
-  <h2>Simple ideas,<br>carefully made.</h2>
-  <p class="hero-description">
-    I create identities, editorial systems, websites and visual worlds
-    for people and organizations with something worth saying.
-  </p>
-</section>
 
 <section class="works-section" id="selected-works">
   <div class="section-heading">
     <h2>Selected Works</h2>
-    <span>{{ collections.selectedWorks.length }} projects</span>
   </div>
 
   <div class="works-grid">
@@ -49,5 +37,5 @@ title: Home
     <h2>Contact</h2>
   </div>
 
-  <a class="big-link" href="mailto:{{ site.email }}">{{ site.email }} ↗</a>
+  <a class="big-link" href="mailto:{{ site.email }}">{{ site.email }}</a>
 </section>

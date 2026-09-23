@@ -4,8 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ description or site.description }}">
-  <title>{{ title }} — {{ site.name }}</title>
+  <title>{{ site.name }}</title>
   <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
+  <script>
+    (function () {
+      var stored = localStorage.getItem("theme");
+      var dark = stored ? stored === "dark"
+        : window.matchMedia("(prefers-color-scheme: dark)").matches;
+      document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+    })();
+  </script>
 </head>
 <body>
   <svg class="sprite" aria-hidden="true">
@@ -25,24 +33,27 @@
 
   <header class="site-header">
     <div class="brand">
-      <a class="site-logo" href="{{ '/' | url }}" aria-label="{{ site.name }} home">
-        <img
-          class="logo-rect"
-          src="{{ '/images/logo-rect.png' | url }}"
-          alt=""
-          loading="eager"
-          width="512"
-          height="384"
-        />
-      </a>
+      <a class="site-logo" href="{{ '/' | url }}" aria-label="{{ site.name }} home"></a>
       <a class="brand-name" href="{{ '/' | url }}">{{ site.name }}</a>
     </div>
 
-    <nav class="site-nav" aria-label="Main navigation">
-      <a href="{{ '/#selected-works' | url }}">Selected Works</a>
-      <a href="{{ '/#about' | url }}">About</a>
-      <a href="{{ '/#contact' | url }}">Contact</a>
-    </nav>
+    <div class="header-right">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="{{ '/#selected-works' | url }}">Selected Works</a>
+        <a href="{{ '/#about' | url }}">About</a>
+        <a href="{{ '/#contact' | url }}">Contact</a>
+      </nav>
+
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"/>
+          <path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1"/>
+        </svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>
+        </svg>
+      </button>
+    </div>
   </header>
 
   <main>
@@ -50,7 +61,7 @@
   </main>
 
   <footer class="site-footer">
-    <span>© {{ year }} {{ site.name }} — {{ site.location }}</span>
+    <span>© {{ year }} {{ site.name }}, {{ site.location }}</span>
     <nav class="footer-links" aria-label="Social links">
       {% for link in site.social %}
         <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
@@ -62,5 +73,17 @@
       {% endfor %}
     </nav>
   </footer>
+
+  <script>
+    var toggle = document.getElementById("theme-toggle");
+    if (toggle) {
+      toggle.addEventListener("click", function () {
+        var next = document.documentElement.getAttribute("data-theme") === "dark"
+          ? "light" : "dark";
+        document.documentElement.setAttribute("data-theme", next);
+        localStorage.setItem("theme", next);
+      });
+    }
+  </script>
 </body>
 </html>
