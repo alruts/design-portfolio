@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100">
+  <rect width="1600" height="1100" fill="#f5e0d8"/>
+  <circle cx="800" cy="500" r="380" fill="#b02a1a"/>
+  <circle cx="800" cy="500" r="240" fill="#f5e0d8"/>
+  <circle cx="800" cy="500" r="100" fill="#b02a1a"/>
+  <text x="90" y="980" font-family="monospace" font-size="48" fill="#b02a1a">KRINGLAN / 01</text>
+</svg>

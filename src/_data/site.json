@@ -1,10 +1,10 @@
 {
   "name": "Gunnhildur Ýrr",
-  "description": "Graphic designer and art director.",
+  "description": "Graphic designer and art director based in Reykjavík.",
   "location": "Reykjavík, Iceland",
-  "email": "hello@example.com",
+  "email": "gunnhildur6@gmail.com",
   "social": [
-    { "label": "Instagram", "url": "https://instagram.com/", "icon": "instagram" },
-    { "label": "Are.na", "url": "https://www.are.na/", "icon": "arena" }
+    { "label": "Instagram", "url": "https://www.instagram.com/gunnhilduryrr/", "icon": "instagram" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/gunnhilduryrr/", "icon": "linkedin" }
   ]
 }

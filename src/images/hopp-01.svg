@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100">
+  <rect width="1600" height="1100" fill="#d4e8d8"/>
+  <circle cx="800" cy="500" r="350" fill="#1a4a28"/>
+  <circle cx="800" cy="500" r="200" fill="#d4e8d8"/>
+  <circle cx="800" cy="500" r="60" fill="#1a4a28"/>
+  <rect x="770" y="150" width="60" height="350" fill="#1a4a28" opacity="0"/>
+  <text x="90" y="980" font-family="monospace" font-size="48" fill="#1a4a28">HOPP REYKJAVÍK / 01</text>
+</svg>

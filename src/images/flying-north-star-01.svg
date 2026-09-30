@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100">
+  <rect width="1600" height="1100" fill="#1c2a4a"/>
+  <polygon points="800,120 860,430 1100,430 900,610 970,920 800,740 630,920 700,610 500,430 740,430" fill="#c8a84a"/>
+  <text x="90" y="980" font-family="monospace" font-size="48" fill="#c8a84a">NORTH STAR / 01</text>
+</svg>

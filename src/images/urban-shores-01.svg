@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100">
+  <rect width="1600" height="1100" fill="#c5d5e8"/>
+  <rect x="0" y="620" width="1600" height="480" fill="#1c3a5c"/>
+  <rect x="200" y="480" width="1200" height="160" fill="#4a7aa8" opacity="0.6"/>
+  <rect x="400" y="380" width="800" height="120" fill="#7aadd4" opacity="0.5"/>
+  <text x="90" y="980" font-family="monospace" font-size="48" fill="#c5d5e8">URBAN SHORES / 01</text>
+</svg>

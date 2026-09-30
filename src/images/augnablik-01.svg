@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100">
+  <rect width="1600" height="1100" fill="#f0ede8"/>
+  <ellipse cx="800" cy="500" rx="500" ry="340" fill="#1a1a1a"/>
+  <ellipse cx="800" cy="500" rx="320" ry="200" fill="#f0ede8"/>
+  <ellipse cx="800" cy="500" rx="80" ry="80" fill="#1a1a1a"/>
+  <text x="90" y="980" font-family="monospace" font-size="48" fill="#1a1a1a">AUGNABLIK / 01</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100">
+  <rect width="1600" height="1100" fill="#e8e0d4"/>
+  <rect x="500" y="150" width="600" height="800" fill="#8b3a2a"/>
+  <rect x="530" y="180" width="540" height="740" fill="#e8e0d4"/>
+  <rect x="580" y="300" width="440" height="4" fill="#8b3a2a"/>
+  <rect x="580" y="360" width="440" height="4" fill="#8b3a2a"/>
+  <rect x="580" y="420" width="300" height="4" fill="#8b3a2a"/>
+  <text x="90" y="980" font-family="monospace" font-size="48" fill="#8b3a2a">TINGBOGEN / 01</text>
+</svg>

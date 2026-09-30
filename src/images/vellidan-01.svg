@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100">
+  <rect width="1600" height="1100" fill="#d8d8d0"/>
+  <rect x="0" y="0" width="1600" height="1100" fill="#b0b0a8" transform="rotate(-20 800 550)" opacity="0.4"/>
+  <rect x="200" y="200" width="1200" height="700" fill="none" stroke="#1a1a1a" stroke-width="8"/>
+  <rect x="260" y="260" width="1080" height="580" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+  <text x="90" y="980" font-family="monospace" font-size="48" fill="#1a1a1a">VELLÍÐAN / 01</text>
+</svg>
