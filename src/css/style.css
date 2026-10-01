@@ -31,7 +31,7 @@
   --accent: #ff4d00;
   --thumb-bg: #f1f1f1;
   --max: 1500px;
-  --gutter: clamp(1.1rem, 3vw, 3.5rem);
+  --gutter: clamp(2rem, 5vw, 6rem);
 }
 
 :root[data-theme="dark"] {
@@ -109,13 +109,13 @@ a {
   transition: all 0.2s;
 }
 
-.site-logo:hover {
+.site-logo:hover,
+.brand:hover .site-logo {
   border-radius: 50%;
 }
 
 .site-logo:active {
-  border-radius: 0;
-  transform: rotate(45deg);
+  border-radius: 50%;
 }
 
 .site-nav {
@@ -160,29 +160,6 @@ a {
   text-decoration: none;
 }
 
-.site-nav a {
-  position: relative;
-}
-
-.site-nav a::after,
-.back-link::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  bottom: -0.2rem;
-  left: 0;
-  height: 1px;
-  background: currentColor;
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 200ms ease;
-}
-
-.site-nav a:hover::after,
-.back-link:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
-}
 
 .hero,
 .works-section,
@@ -242,7 +219,7 @@ a {
 .works-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: clamp(2rem, 4vw, 4rem) clamp(1rem, 2vw, 2rem);
+  gap: clamp(2rem, 4vw, 4rem) clamp(2rem, 4vw, 4rem);
   padding-block: 1.5rem 10rem;
 }
 
@@ -258,7 +235,7 @@ a {
 
 .work-image {
   width: 100%;
-  aspect-ratio: 16 / 5;
+  aspect-ratio: 16 / 4;
   object-fit: cover;
   transition: transform 600ms cubic-bezier(.2,.7,.2,1);
 }
@@ -280,13 +257,13 @@ a {
 }
 
 .work-meta h2 {
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .work-meta p {
   color: var(--muted);
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .work-meta-right {
