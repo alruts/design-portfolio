@@ -5,6 +5,7 @@
   "email": "gunnhildur6@gmail.com",
   "social": [
     { "label": "Instagram", "url": "https://www.instagram.com/gunnhilduryrr/", "icon": "instagram" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/gunnhilduryrr/", "icon": "linkedin" }
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/gunnhilduryrr/", "icon": "linkedin" },
+    { "label": "Email", "url": "mailto:gunnhildur6@gmail.com", "icon": "email" }
   ]
 }

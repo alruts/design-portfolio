@@ -3,46 +3,54 @@ layout: base.njk
 ---
 
 <article class="work-page">
-  <header class="work-intro">
-    <a class="back-link" href="{{ '/#selected-works' | url }}">← Selected Works</a>
-
-    <div class="work-title-row">
-      <div>
-        <p class="eyebrow">{{ client }}</p>
-        <h1>{{ title }}</h1>
-      </div>
-
+  <div class="work-intro">
+    <div>
+      <h1>{{ title }}</h1>
+    </div>
+    <div class="work-intro-right">
+      {% if intro %}<p class="work-description">{{ intro }}</p>{% endif %}
       <div class="work-facts">
+        {% if client %}<span>{{ client }}</span>{% endif %}
         {% if year %}<span>{{ year }}</span>{% endif %}
         {% if category %}<span>{{ category }}</span>{% endif %}
       </div>
     </div>
-
-    {% if intro %}
-      <p class="work-description">{{ intro }}</p>
-    {% endif %}
-  </header>
+  </div>
 
   <div class="work-gallery">
     {% if gallery %}
-      {% for image in gallery %}
-        <figure class="gallery-item {% if loop.index == 1 %}gallery-item-large{% endif %}">
-          <img src="{{ image.src | url }}" alt="{{ image.alt or title }}" loading="{% if loop.index == 1 %}eager{% else %}lazy{% endif %}">
-          {% if image.caption %}
-            <figcaption>{{ image.caption }}</figcaption>
-          {% endif %}
-        </figure>
-      {% endfor %}
+      <figure class="gallery-hero">
+        <img src="{{ gallery[0].src | url }}" alt="{{ gallery[0].alt or title }}" loading="eager">
+      </figure>
+      {% if gallery.length > 1 %}
+        <div class="gallery-grid">
+          {% for image in gallery %}
+            {% if loop.index > 1 %}
+              <figure class="gallery-item">
+                <img src="{{ image.src | url }}" alt="{{ image.alt or title }}" loading="lazy">
+                {% if image.caption %}<figcaption>{{ image.caption }}</figcaption>{% endif %}
+              </figure>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
     {% else %}
-      <figure class="gallery-item gallery-item-large">
-        <img src="{{ image | url }}" alt="{{ imageAlt or title }}">
+      <figure class="gallery-hero">
+        <img src="{{ image | url }}" alt="{{ imageAlt or title }}" loading="eager">
       </figure>
     {% endif %}
   </div>
 
   {% if content %}
-    <div class="work-body">
-      {{ content | safe }}
-    </div>
+    <div class="work-body">{{ content | safe }}</div>
   {% endif %}
 </article>
+
+<section class="works-section" id="selected-works">
+  <div class="works-grid">
+    {% for work in collections.selectedWorks %}
+      {% include "work-card.njk" %}
+    {% endfor %}
+  </div>
+</section>
+
