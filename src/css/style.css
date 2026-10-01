@@ -265,7 +265,7 @@ a {
 }
 
 .work-card:hover .work-image {
-  filter: brightness(1.1);
+  filter: brightness(1.08);
 }
 
 .work-meta {
