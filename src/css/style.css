@@ -160,6 +160,30 @@ a {
   text-decoration: none;
 }
 
+.site-nav a {
+  position: relative;
+}
+
+.site-nav a::after,
+.back-link::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -0.2rem;
+  left: 0;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 200ms ease;
+}
+
+.site-nav a:hover::after,
+.back-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
 
 .hero,
 .works-section,
@@ -235,7 +259,7 @@ a {
 
 .work-image {
   width: 100%;
-  aspect-ratio: 16 / 4;
+  aspect-ratio: 3 / 2;
   object-fit: cover;
   transition: transform 600ms cubic-bezier(.2,.7,.2,1);
 }
