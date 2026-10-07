@@ -40,7 +40,9 @@
 
   <header class="site-header">
     <div class="brand">
-      <a class="site-logo" href="{{ '/' | url }}" aria-label="{{ site.name }} home"></a>
+      <a class="site-logo" href="{{ '/' | url }}" aria-label="{{ site.name }} home">
+        <img src="{{ '/images/logo.png' | url }}" alt="" width="200" height="200" aria-hidden="true">
+      </a>
       <a class="brand-name" href="{{ '/' | url }}">{{ site.name }}</a>
     </div>
 

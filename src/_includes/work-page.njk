@@ -47,9 +47,14 @@ layout: base.njk
 </article>
 
 <section class="works-section" id="selected-works">
+  <div class="section-heading">
+    <h2>More works</h2>
+  </div>
   <div class="works-grid">
     {% for work in collections.selectedWorks %}
-      {% include "work-card.njk" %}
+      {% if work.url != page.url %}
+        {% include "work-card.njk" %}
+      {% endif %}
     {% endfor %}
   </div>
 </section>
