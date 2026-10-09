@@ -263,20 +263,33 @@ a {
 }
 
 .work-image-wrap {
+  position: relative;
   overflow: hidden;
   background: var(--thumb-bg);
 }
 
 .work-image {
+  display: block;
   width: 100%;
   aspect-ratio: 3 / 2;
   object-fit: cover;
   transition: filter 300ms ease;
 }
 
-.work-card:hover .work-image {
-  filter: brightness(1.08);
+.work-image-wrap::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: white;
+  opacity: 0;
+  transition: opacity 300ms ease;
+  pointer-events: none;
 }
+
+.work-card:hover .work-image-wrap::after {
+  opacity: 0.06;
+}
+
 
 .work-meta {
   display: flex;
