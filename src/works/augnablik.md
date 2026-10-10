@@ -5,7 +5,7 @@ client: Iceland Academy of the Arts
 year: 2021
 category: Photography & Design
 order: 3
-image: /images/augnablik-01.jpg
+image: /images/augnablik1.png
 imageAlt: Augnablik BA graduation project
 intro: A BA graduation project exploring the preservation of fleeting moments in nature through black-and-white photography, a book, and a poster series.
 ---
@@ -19,10 +19,10 @@ intro: A BA graduation project exploring the preservation of fleeting moments in
 
 <div class="w-grid" style="--cols:2">
   <div class="w-cell">
-    <figure class="w-image"><img src="{{ '/images/augnablik-01.svg' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+    <figure class="w-image"><img src="{{ '/images/augnablik2.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
   </div>
   <div class="w-cell">
-    <figure class="w-image"><img src="{{ '/images/quiet-objects-01.svg' | url }}" alt="Quiet Objects detail" loading="lazy"></figure>
+    <figure class="w-image"><img src="{{ '/images/augnablik3.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
   </div>
 </div>
 
@@ -33,28 +33,32 @@ intro: A BA graduation project exploring the preservation of fleeting moments in
   Proin facilisis eros vitae nisl sodales, in consequat eros feugiat.
 </p>
 
-<div class="w-grid w-grid--gap-sm" style="--cols:2">
+<div class="w-grid" style="--cols:2">
   <div class="w-cell">
-    <figure class="w-image"><img src="{{ '/images/field-notes-01.svg' | url }}" alt="Field Notes spread" loading="lazy"></figure>
+  <figure class="w-image"><img src="{{ '/images/augnablik6.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
   </div>
   <div class="w-cell">
-    <p>The work integrates written diary elements with visual documentation, and was published as a printed book. Subsequently exhibited at Epal, the Icelandic design store.</p>
+  <figure class="w-image"><img src="{{ '/images/augnablik7.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
   </div>
 </div>
-
-<figure class="w-image"><img src="{{ '/images/kringlan-01.svg' | url }}" alt="Kringlan reference" loading="lazy"></figure>
-
-<p>
-  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-  veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-</p>
 
 <div class="w-grid" style="--cols:2">
   <div class="w-cell">
-    <figure class="w-image"><img src="{{ '/images/quiet-objects-02.svg' | url }}" alt="Quiet Objects II" loading="lazy"></figure>
+  <figure class="w-image"><img src="{{ '/images/augnablik8.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
   </div>
   <div class="w-cell">
-    <figure class="w-image"><img src="{{ '/images/field-notes-02.svg' | url }}" alt="Field Notes II" loading="lazy"></figure>
+  <figure class="w-image"><img src="{{ '/images/augnablik9.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
   </div>
 </div>
+
+<div class="w-grid w-grid--gap-sm" style="--cols:2">
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/augnablik4.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+  <div class="w-cell">
+<figure class="w-image"><img src="{{ '/images/augnablik5.png' | url }}" alt="Kringlan reference" loading="lazy"></figure>
+  </div>
+</div>
+
+
+<figure class="w-image"><img src="{{ '/images/augnablik5.png' | url }}" alt="Kringlan reference" loading="lazy"></figure>

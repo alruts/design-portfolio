@@ -5,7 +5,7 @@ client: Danish Architectural Press
 year: 2021
 category: Book Design
 order: 6
-image: /images/tingbogen-01.png
+image: /images/tingbogen1.png
 imageAlt: Tingbogen book design
 intro: Book design for Tingbogen by architect Gitte Juul, published by the Danish Architectural Press.
 ---

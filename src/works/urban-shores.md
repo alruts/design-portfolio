@@ -5,21 +5,30 @@ client: Danish Architectural Press
 year: 2025
 category: Book Design
 order: 1
-image: /images/urban-shores-01.jpg
+image: /images/urban-shores1.png
 imageAlt: Urban Shores book design
-intro: A book exploring how coastal cities can respond to rising sea levels through landscape-based adaptation strategies.
+intro: A book exploring how coastal cities can respond to rising sea levels through landscape-based adaptation strategies. Led complete design and production as a graduation project in Strategic Design and Entrepreneurship at the Royal Danish Academy, working closely with publisher, author and production partners. The project treated sustainability as a strategic lens — examining how design decisions affect longevity, value and reader experience across the book's full lifecycle.
 ---
 
-<p>
-  Led complete design and production as a graduation project in Strategic Design
-  and Entrepreneurship at the Royal Danish Academy, working closely with publisher,
-  author and production partners. The project treated sustainability as a strategic
-  lens — examining how design decisions affect longevity, value and reader experience
-  across the book's full lifecycle.
-</p>
-<p>
-  The Eco-cost/Value Ratio served as a qualitative evaluation framework for weighing
-  environmental impact against quality perception, expanding the designer's role
-  from visual decision-maker into strategic mediator between publisher, printer
-  and suppliers.
-</p>
+<div class="w-grid" style="--cols:1">
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/urban-shores2.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/urban-shores3.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/urban-shores4.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+</div>
+
+
+
+<div class="w-grid" style="--cols:2">
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/hopp5.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/hopp6.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+</div>

@@ -3,6 +3,10 @@ layout: base.njk
 ---
 
 <section class="works-section" id="selected-works">
+  <div class="section-heading">
+    <h2>Selected works</h2>
+  </div>
+
   <div class="works-grid">
     {% for work in collections.selectedWorks %}
       {% include "work-card.njk" %}

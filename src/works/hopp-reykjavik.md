@@ -5,7 +5,7 @@ client: Kontor Reykjavík
 year: 2021–2022
 category: Art Direction / Campaign
 order: 4
-image: /images/hopp-01.png
+image: /images/hopp1.png
 imageAlt: Hopp Reykjavik campaign imagery
 intro: Photography direction and brand communications for a sustainable urban car-sharing service launching in Reykjavík.
 ---
@@ -20,3 +20,43 @@ intro: Photography direction and brand communications for a sustainable urban ca
   Work carried out while at Kontor Reykjavík, in collaboration with
   creative director Sigrún Gylfadóttir.
 </p>
+
+
+
+<div class="w-grid" style="--cols:1">
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/hopp2.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+</div>
+
+
+<div class="w-grid" style="--cols:1">
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/hopp3.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/hopp4.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+</div>
+
+
+<div class="w-grid" style="--cols:2">
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/hopp5.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/hopp6.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+</div>
+
+<div class="w-grid" style="--cols:1">
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/hopp7.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/hopp8.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+</div>
+
+
+
