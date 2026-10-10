@@ -21,14 +21,3 @@ intro: A book exploring how coastal cities can respond to rising sea levels thro
     <figure class="w-image"><img src="{{ '/images/urban-shores4.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
   </div>
 </div>
-
-
-
-<div class="w-grid" style="--cols:2">
-  <div class="w-cell">
-    <figure class="w-image"><img src="{{ '/images/hopp5.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
-  </div>
-  <div class="w-cell">
-    <figure class="w-image"><img src="{{ '/images/hopp6.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
-  </div>
-</div>
