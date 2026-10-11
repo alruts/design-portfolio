@@ -51,7 +51,7 @@ intro: A BA graduation project exploring the preservation of fleeting moments in
   </div>
 </div>
 
-<div class="w-grid w-grid--gap-sm" style="--cols:2">
+<div class="w-grid" style="--cols:2">
   <div class="w-cell">
     <figure class="w-image"><img src="{{ '/images/augnablik4.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
   </div>
