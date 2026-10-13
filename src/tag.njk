@@ -1,0 +1,21 @@
+---
+layout: base.njk
+pagination:
+  data: collections.tagList
+  size: 1
+  alias: tagEntry
+permalink: /tags/{{ tagEntry.slug }}/
+---
+
+<section class="works-section tag-page">
+  <div class="section-heading">
+    <h2>{{ tagEntry.tag }}</h2>
+    <span>{{ tagEntry.works.length }} {% if tagEntry.works.length == 1 %}project{% else %}projects{% endif %}</span>
+  </div>
+
+  <div class="works-grid">
+    {% for work in tagEntry.works %}
+      {% include "work-card.njk" %}
+    {% endfor %}
+  </div>
+</section>

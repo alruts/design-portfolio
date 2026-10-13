@@ -1,9 +1,8 @@
 ---
 layout: work-page.njk
 title: Tingbogen
-client: Danish Architectural Press
-year: 2021
-category: Book Design
+tags:
+  - Books
 order: 6
 image: /images/tingbogen5.png
 imageAlt: Tingbogen book design

@@ -1,9 +1,8 @@
 ---
 layout: work-page.njk
 title: Untitled
-client: Iceland Academy of the Arts
-year: 2018
-category: Visual Arts
+tags:
+  - Visual Arts
 order: 8
 image: /images/final-project2.png
 imageAlt: Image art

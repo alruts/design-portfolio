@@ -1,9 +1,9 @@
 ---
 layout: work-page.njk
 title: Augnablik
-client: Iceland Academy of the Arts
-year: 2021
-category: Photography & Design
+tags:
+  - Books
+  - Photography
 order: 3
 image: /images/augnablik1.png
 imageAlt: Augnablik BA graduation project

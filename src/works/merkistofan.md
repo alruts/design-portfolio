@@ -1,9 +1,8 @@
 ---
 layout: work-page.njk
 title: Merkistofan
-client: Kontor Reykjavík
-year: 2021
-category: Logo Design
+tags:
+  - Identity
 order: 9
 image: /images/merkisstofan1.png
 imageAlt: Merkistofan logo design

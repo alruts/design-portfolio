@@ -9,11 +9,12 @@ layout: base.njk
     </div>
     <div class="work-intro-right">
       {% if intro %}<p class="work-description">{{ intro }}</p>{% endif %}
-      <div class="work-facts">
-        {% if client %}<span>{{ client }}</span>{% endif %}
-        {% if year %}<span>{{ year }}</span>{% endif %}
-        {% if category %}<span>{{ category }}</span>{% endif %}
-      </div>
+      {% if tags %}
+        <p class="work-tags">
+          <span>Tags:</span>
+          {% for tag in tags %}<a class="work-tag" href="{{ tag | tagUrl | url }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
+        </p>
+      {% endif %}
     </div>
   </div>
 

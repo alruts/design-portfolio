@@ -1,9 +1,8 @@
 ---
 layout: work-page.njk
 title: Urban Shores
-client: Danish Architectural Press
-year: 2025
-category: Book Design
+tags:
+  - Books
 order: 1
 image: /images/urban-shores1.png
 imageAlt: Urban Shores book design

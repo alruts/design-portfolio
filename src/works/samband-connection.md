@@ -1,9 +1,8 @@
 ---
 layout: work-page.njk
 title: Samband / Connection
-client: 3daysofdesign / Icelandic Embassy, Copenhagen
-year: 2023
-category: Exhibition Design
+tags:
+  - Exhibitions
 order: 2
 image: /images/samband5.png
 imageAlt: Samband exhibition at the Icelandic Embassy in Copenhagen

@@ -1,9 +1,9 @@
 ---
 layout: work-page.njk
 title: Hopp Reykjavík
-client: Kontor Reykjavík
-year: 2021–2022
-category: Art Direction / Campaign
+tags:
+  - Commercials
+  - Social Media
 order: 4
 image: /images/hopp1.png
 imageAlt: Hopp Reykjavik campaign imagery
