@@ -1,7 +1,7 @@
 ---
 layout: work-page.njk
 title: Augnablik
-tags:
+categories:
   - Books
   - Photography
 order: 3

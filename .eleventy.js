@@ -5,14 +5,9 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addGlobalData("year", () => String(new Date().getFullYear()));
 
-  const slugify = (value) =>
-    String(value)
-      .toLowerCase()
-      .trim()
-      .replace(/[^a-z0-9]+/g, "-")
-      .replace(/^-+|-+$/g, "");
+  const slugify = eleventyConfig.getFilter("slugify");
 
-  eleventyConfig.addFilter("tagUrl", (tag) => `/tags/${slugify(tag)}/`);
+  eleventyConfig.addFilter("tagPath", (tag) => `/tags/${slugify(tag)}/`);
 
   const byOrder = (a, b) => (a.data.order ?? 999) - (b.data.order ?? 999);
 
@@ -24,7 +19,7 @@ module.exports = function (eleventyConfig) {
     const groups = new Map();
 
     collectionApi.getFilteredByGlob("./src/works/*.md").forEach((item) => {
-      (item.data.tags || []).forEach((tag) => {
+      (item.data.categories || []).forEach((tag) => {
         if (!groups.has(tag)) groups.set(tag, []);
         groups.get(tag).push(item);
       });

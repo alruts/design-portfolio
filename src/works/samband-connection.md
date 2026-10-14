@@ -1,7 +1,7 @@
 ---
 layout: work-page.njk
 title: Samband / Connection
-tags:
+categories:
   - Exhibitions
 order: 2
 image: /images/samband5.png

@@ -1,7 +1,7 @@
 ---
 layout: work-page.njk
 title: Tingbogen
-tags:
+categories:
   - Books
 order: 6
 image: /images/tingbogen5.png

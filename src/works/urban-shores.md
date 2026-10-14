@@ -1,7 +1,7 @@
 ---
 layout: work-page.njk
 title: Urban Shores
-tags:
+categories:
   - Books
 order: 1
 image: /images/urban-shores1.png

@@ -1,7 +1,7 @@
 ---
 layout: work-page.njk
 title: Merkistofan
-tags:
+categories:
   - Identity
 order: 9
 image: /images/merkisstofan1.png

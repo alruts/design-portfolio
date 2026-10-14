@@ -1,7 +1,7 @@
 ---
 layout: work-page.njk
 title: Untitled
-tags:
+categories:
   - Visual Arts
 order: 8
 image: /images/final-project2.png

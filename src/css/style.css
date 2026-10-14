@@ -60,7 +60,7 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: "Diatype Variable", Arial, Helvetica, sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.45;
   -webkit-font-smoothing: antialiased;
 }
@@ -89,6 +89,7 @@ a {
   justify-content: space-between;
   padding-block: 0.8rem;
   background: var(--bg);
+  font-size: 16px;
 }
 
 .brand {

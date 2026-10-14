@@ -1,7 +1,7 @@
 ---
 layout: work-page.njk
 title: Hopp Reykjavík
-tags:
+categories:
   - Commercials
   - Social Media
 order: 4
