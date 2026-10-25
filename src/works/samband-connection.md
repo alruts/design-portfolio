@@ -17,21 +17,45 @@ intro: Designed an exhibition for 3daysofdesign in Copenhagen, showcasing outsta
     <figure class="w-image"><img src="{{ '/images/samband9.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
   </div>
   <div class="w-cell">
-    <figure class="w-image"><img src="{{ '/images/samband10.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
-  </div>
-  <div class="w-cell">
-    <figure class="w-image"><img src="{{ '/images/samband4.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
-  </div>
-</div>
-
-
-
-<div class="w-grid" style="--cols:1">
-  <div class="w-cell">
     <figure class="w-image"><img src="{{ '/images/samband2.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
   </div>
   <div class="w-cell">
     <figure class="w-image"><img src="{{ '/images/samband3.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
   </div>
+
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/samband4.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/samband10.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
 </div>
+
+<div class="w-grid" style="--cols:2">
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/samband11.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/samband12.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/samband13.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/samband14.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/samband15.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/samband16.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+</div>
+
+<div class="w-grid" style="--cols:1">
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/samband.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+</div>
+
 
