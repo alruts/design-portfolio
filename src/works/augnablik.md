@@ -11,7 +11,10 @@ intro: A BA graduation project exploring the preservation of fleeting moments in
 ---
 
 <p>
-  The Icelandic word <em>augnablik</em>, meaning the brief instant it takes to blink, anchors the project conceptually. A series of photographs taken across different times and places is accompanied by colour palettes extracted from the original images, made visible as posters.
+  The Icelandic word <em>augnablik</em>, meaning the brief instant it takes to
+  blink, anchors the project conceptually. A series of photographs taken across
+  different times and places is accompanied by colour palettes extracted from
+  the original images, made visible as posters.
 </p>
 
 <div class="w-grid" style="--cols:2">
@@ -51,7 +54,11 @@ intro: A BA graduation project exploring the preservation of fleeting moments in
 </div>
 
 <p>
-  Eyjólfur Pálsson, founder of Epal, was fascinated by the work at the graduation exhibition and the book was sold in his shop in a limited edition. Read more on the <a href="https://www.epal.is/blogs/blogg/augnablik-eftir-gunnhildi-yrr">Epal blog</a>.
+  Eyjólfur Pálsson, founder of Epal, was fascinated by the work at the LHÍ
+  graduation exhibition and decided to fund a limited release of  the book,
+  which was then sold in his shops all around Iceland. Read more on the <a
+  href="https://www.epal.is/blogs/blogg/augnablik-eftir-gunnhildi-yrr">Epal
+  blog</a>.
 </p>
 
 
