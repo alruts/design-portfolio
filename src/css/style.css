@@ -30,7 +30,7 @@
   --line: #dedede;
   --accent: #ff4d00;
   --thumb-bg: #f1f1f1;
-  --max: 1350px;
+  --max: 1200px;
   --gutter: clamp(2rem, 5vw, 6rem);
   --grid-gap: clamp(1rem, 2vw, 2rem);
 }
@@ -114,9 +114,11 @@ a {
   transition: all 0.2s;
 }
 
-.site-logo:hover,
-.brand:hover .site-logo {
-  border-radius: 50%;
+@media (hover: hover) and (pointer: fine) {
+  .site-logo:hover,
+  .brand:hover .site-logo {
+    border-radius: 50%;
+  }
 }
 
 .site-logo:active {
@@ -190,8 +192,16 @@ a {
   transition: transform 200ms ease;
 }
 
-.site-nav a:hover,
-.back-link:hover {
+@media (hover: hover) and (pointer: fine) {
+  .site-nav a:hover,
+  .back-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+  }
+}
+
+.site-nav a:active,
+.back-link:active {
   text-decoration: underline;
   text-underline-offset: 6px;
 }
@@ -284,17 +294,20 @@ a {
   inset: 0;
   background: white;
   opacity: 0;
-  transition: opacity 0.2s, border-radius 0.2s;
+  transition: opacity 0.2s;
   pointer-events: none;
 }
 
-.work-card:hover .work-image-wrap {
-  border-radius: 12px;
+@media (hover: hover) and (pointer: fine) {
+  .work-card:hover .work-image-wrap::after {
+    opacity: 0.08;
+  }
 }
 
-.work-card:hover .work-image-wrap::after {
-  opacity: 0.08;
-  border-radius: 12px;
+@media (hover: none) and (pointer: coarse) {
+  .work-image-wrap::after {
+    opacity: 0.08;
+  }
 }
 
 
@@ -355,7 +368,13 @@ a {
   text-decoration: none;
 }
 
-.big-link:hover {
+@media (hover: hover) and (pointer: fine) {
+  .big-link:hover {
+    color: var(--accent);
+  }
+}
+
+.big-link:active {
   color: var(--accent);
 }
 
@@ -390,7 +409,13 @@ a {
   text-decoration: none;
 }
 
-.footer-links a:hover {
+@media (hover: hover) and (pointer: fine) {
+  .footer-links a:hover {
+    color: var(--accent);
+  }
+}
+
+.footer-links a:active {
   color: var(--accent);
 }
 
@@ -453,7 +478,13 @@ a {
   text-decoration: none;
 }
 
-.work-tag:hover {
+@media (hover: hover) and (pointer: fine) {
+  .work-tag:hover {
+    color: var(--accent);
+  }
+}
+
+.work-tag:active {
   color: var(--accent);
 }
 
