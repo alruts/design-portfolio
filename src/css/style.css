@@ -267,6 +267,7 @@ a {
   position: relative;
   overflow: hidden;
   background: var(--thumb-bg);
+  transition: border-radius 0.2s;
 }
 
 .work-image {
@@ -274,7 +275,7 @@ a {
   width: 100%;
   aspect-ratio: 3 / 2;
   object-fit: cover;
-  transition: filter 300ms ease;
+  transition: filter 0.2s;
 }
 
 .work-image-wrap::after {
@@ -283,12 +284,17 @@ a {
   inset: 0;
   background: white;
   opacity: 0;
-  transition: opacity 300ms ease;
+  transition: opacity 0.2s, border-radius 0.2s;
   pointer-events: none;
 }
 
+.work-card:hover .work-image-wrap {
+  border-radius: 12px;
+}
+
 .work-card:hover .work-image-wrap::after {
-  opacity: 0.06;
+  opacity: 0.08;
+  border-radius: 12px;
 }
 
 
