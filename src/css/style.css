@@ -549,8 +549,24 @@ a {
     font-size: clamp(3.5rem, 18vw, 6rem);
   }
 
+  .about-section,
+  .contact-section {
+    padding-bottom: 7rem;
+  }
+
+  .site-footer {
+    padding-bottom: 1.5rem;
+  }
+}
+
+/* Collapse multi-column grids to a single column */
+
+@media (max-width: 900px) {
   .works-grid,
-  .about-grid {
+  .about-grid,
+  .work-intro,
+  .gallery-grid,
+  .w-grid {
     grid-template-columns: 1fr;
   }
 
@@ -564,27 +580,6 @@ a {
 
   .about-grid {
     gap: 2rem;
-  }
-
-  .about-section,
-  .contact-section {
-    padding-bottom: 7rem;
-  }
-
-  .work-intro {
-    grid-template-columns: 1fr;
-  }
-
-  .gallery-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .site-footer {
-    padding-bottom: 1.5rem;
-  }
-
-  .w-grid {
-    grid-template-columns: 1fr;
   }
 
   .w-cell {
