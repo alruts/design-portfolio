@@ -7,7 +7,7 @@ categories:
 order: 4
 image: /images/hopp1.png
 imageAlt: Hopp Reykjavik campaign imagery
-intro: Photography direction and brand communications for a sustainable urban car-sharing service launching in Reykjavík.
+intro: Photography direction and brand communications for a sustainable urban car-sharing service launching in Reykjavík. Work carried out while working at Kontor Reykjavík.
 ---
 
 <p>
