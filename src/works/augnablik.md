@@ -7,15 +7,8 @@ categories:
 order: 3
 image: /images/augnablik1.png
 imageAlt: Augnablik BA graduation project
-intro: A BA graduation project exploring the preservation of fleeting moments in nature through photography, a book, and a poster series.
+intro: A BA graduation project exploring the preservation of fleeting moments in nature through photography, a book, and a poster series. The Icelandic word <em>augnablik</em>, meaning the brief instant it takes to blink, anchors the project conceptually. A series of photographs taken across different times and places is accompanied by colour palettes extracted from the original images, made visible as posters.
 ---
-
-<p>
-  The Icelandic word <em>augnablik</em>, meaning the brief instant it takes to
-  blink, anchors the project conceptually. A series of photographs taken across
-  different times and places is accompanied by colour palettes extracted from the
-  original images, made visible as posters.
-</p>
 
 <div class="w-grid" style="--cols:2">
   <div class="w-cell">
@@ -52,5 +45,7 @@ intro: A BA graduation project exploring the preservation of fleeting moments in
 <figure class="w-image"><img src="{{ '/images/augnablik5.png' | url }}" alt="Kringlan reference" loading="lazy"></figure>
   </div>
 </div>
+
+<p>Eyjólfur Pálsson, founder of Epal, was fascinated by the work at the graduation exhibition and the book was sold in his shop in a limited edition. Read more on the <a href="https://www.epal.is/blogs/blogg/augnablik-eftir-gunnhildi-yrr">Epal blog</a>.</p>
 
 
