@@ -6,7 +6,7 @@ categories:
 order: 6
 image: /images/tingbogen5.png
 imageAlt: Tingbogen book design
-intro: Book design for Tingbogen by architect Gitte Juul, published by the Danish Architectural Press. Folding diverse photography, often taken on phones and by other means, with the prose to create a cohesive and well-designed reading experience. Typography, layout and production design for the publication, in close collaboration with the author and publisher.
+intro: Book design for Tingbogen by architect Gitte Juul, published by the Danish Architectural Press. Folding diverse photography together with the prose to create a cohesive and well-designed reading experience. Typography, layout and production design for the publication, in close collaboration with the author and publisher.
 ---
 
 
