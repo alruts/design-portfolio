@@ -25,4 +25,4 @@ intro: Book design for Tingbogen by architect Gitte Juul, published by the Danis
   </div>
 </div>
 
-<p>More info on the book <a href="https://arkitektensforlag.dk/shop/p/tingbogen">here</a>.</p>
+<p>More info on the book at <a href="https://arkitektensforlag.dk/shop/p/tingbogen">Arkitektens Forlag</a>.</p>
