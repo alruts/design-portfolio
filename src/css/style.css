@@ -190,12 +190,11 @@ a {
   transition: transform 200ms ease;
 }
 
-.site-nav a:hover::after,
-.back-link:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
+.site-nav a:hover,
+.back-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
 }
-
 
 .hero,
 .works-section,
