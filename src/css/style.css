@@ -30,7 +30,7 @@
   --line: #dedede;
   --accent: #ff4d00;
   --thumb-bg: #f1f1f1;
-  --max: 1200px;
+  --max: 1350px;
   --gutter: clamp(2rem, 5vw, 6rem);
   --grid-gap: clamp(1rem, 2vw, 2rem);
 }
