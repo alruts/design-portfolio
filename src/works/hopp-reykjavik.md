@@ -7,7 +7,7 @@ categories:
 order: 4
 image: /images/hopp1.png
 imageAlt: Hopp Reykjavik campaign imagery
-intro: Photography direction and brand communications for a sustainable urban car-sharing service launching in Reykjavík. Work carried out while working at Kontor Reykjavík, in collaboration with creative director Sigrún Gylfadóttir. Directed the photoshoot for Hopp's new car rental service, producing imagery that continues to be used across their social media. Managed the Instagram account and developed materials across web, social media, print and presentations — all within the brand's existing guidelines.
+intro: Photography direction and brand communications for a sustainable urban car-sharing service launching in Reykjavík. Work carried out while working at Kontor Reykjavík, in collaboration with creative director Sigrún Gylfadóttir. Directed the photoshoot for Hopp's new car rental service, producing imagery that continues to be used across their social media. Managed the Instagram account and developed materials across web, social media, print and presentations.
 ---
 
 
