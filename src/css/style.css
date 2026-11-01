@@ -267,7 +267,6 @@ a {
   display: block;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
-  transition: opacity 160ms ease;
 }
 
 .work-image-wrap {
@@ -302,9 +301,8 @@ a {
 }
 
 @media (hover: none) and (pointer: coarse) {
-  .work-card:active {
-    opacity: 0.65;
-    transition-duration: 0ms;
+  .work-card.is-pressed .work-image-wrap::after {
+    opacity: 0.08;
   }
 }
 
