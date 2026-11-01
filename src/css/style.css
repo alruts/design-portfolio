@@ -1,32 +1,24 @@
 @font-face {
-  font-family: "Diatype Variable";
-  src: url("../fonts/DiatypeVariable.woff2") format("woff2-variations");
-  font-style: normal;
-  font-weight: 200 1000;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Diatype Variable";
-  src: url("../fonts/DiatypeVariable-Italic.woff2") format("woff2-variations");
-  font-style: italic;
-  font-weight: 200 1000;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Walter Neue Variable";
-  src: url("../fonts/WalterNeueVariable.woff2") format("woff2-variations");
-  font-style: normal;
-  font-weight: 200 1000;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "About Me Font";
-  src: url("../fonts/IvarHeadline-Regular.ttf") format("truetype");
+  font-family: "Helvetica Now Display";
+  src: url("../fonts/Helvetica Now Display.otf") format("opentype");
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Now Display";
+  src: url("../fonts/Helvetica Now Display Bold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Now Display Condensed";
+  src: url("../fonts/Helvetica Now Display Cn XBd.otf") format("opentype");
+  font-style: normal;
+  font-weight: 800;
   font-display: swap;
 }
 
@@ -67,7 +59,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: "Diatype Variable", Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Now Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.45;
   -webkit-font-smoothing: antialiased;
@@ -223,7 +215,7 @@ a {
 }
 
 .hero {
-  padding-block: clamp(7rem, 18vw, 15rem) clamp(7rem, 14vw, 12rem);
+  padding-block: clamp(7rem, 18vw, 15rem) clamp(4rem, 8vw, 7rem);
 }
 
 .eyebrow {
@@ -264,16 +256,11 @@ a {
   font-weight: 400;
 }
 
-.section-heading span {
-  color: var(--muted);
-  font-size: 12px;
-}
-
 .works-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: clamp(2rem, 4vw, 4rem) clamp(2rem, 4vw, 4rem);
-  padding-block: 2.5rem 10rem;
+  padding-block: 2.5rem 6rem;
 }
 
 .work-card {
@@ -351,7 +338,7 @@ a {
 
 .about-section,
 .contact-section {
-  padding-bottom: 10rem;
+  padding-bottom: 6rem;
 }
 
 .about-grid {
@@ -364,9 +351,7 @@ a {
 .about-grid p {
   max-width: 550px;
   margin: 0;
-  font-family: "About Me Font", sans-serif;
   font-size: clamp(1rem, 1.5vw, 1.2rem);
-  font-weight: 400;
   line-height: 1.4;
   letter-spacing: -.015em;
 }
@@ -585,7 +570,7 @@ a {
   }
 
   .hero {
-    padding-block: 6rem 7rem;
+    padding-block: 6rem 4rem;
   }
 
   .hero h1 {
@@ -594,7 +579,7 @@ a {
 
   .about-section,
   .contact-section {
-    padding-bottom: 7rem;
+    padding-bottom: 4rem;
   }
 
   .site-footer {
