@@ -23,6 +23,15 @@ intro: Book design for Tingbogen by architect Gitte Juul, published by the Danis
   <div class="w-cell">
     <figure class="w-image"><img src="{{ '/images/tingbogen1.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
   </div>
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/tingbogen6.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/tingbogen7.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/tingbogen8.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
 </div>
 
 <p>More info on the book at <a href="https://arkitektensforlag.dk/shop/p/tingbogen">Arkitektens Forlag</a>.</p>
