@@ -102,8 +102,15 @@
       var startX = 0;
       var startY = 0;
       var threshold = 10;
+      var holdDelay = 200;
+      var pressTimer = null;
 
       function release() {
+        if (pressTimer) {
+          clearTimeout(pressTimer);
+          pressTimer = null;
+        }
+
         if (!activeCard) return;
         activeCard.classList.remove("is-pressed");
         activeCard = null;
@@ -119,6 +126,7 @@
         startX = event.touches[0].clientX;
         startY = event.touches[0].clientY;
         card.classList.add("is-pressed");
+        pressTimer = setTimeout(release, holdDelay);
       }, { passive: true });
 
       document.addEventListener("touchmove", function (event) {
