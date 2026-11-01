@@ -485,8 +485,32 @@ a {
   color: var(--accent);
 }
 
+/* Category pages */
+
 .tag-page {
   padding-top: clamp(1.5rem, 4vw, 3rem);
+  padding-bottom: 6rem;
+}
+
+.tag-page .works-grid {
+  padding-bottom: 3rem;
+}
+
+.tag-back-link {
+  display: inline-block;
+  font-size: 16px;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .tag-back-link:hover {
+    color: var(--accent);
+  }
+}
+
+.tag-back-link:active {
+  color: var(--accent);
 }
 
 .gallery-hero {
