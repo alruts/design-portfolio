@@ -33,4 +33,7 @@ intro: Developed the brand identity and digital experience for Everen Analytics,
   <div class="w-cell">
     <figure class="w-image"><img src="{{ '/images/everen8.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
   </div>
+    <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/everen9.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
 </div>
