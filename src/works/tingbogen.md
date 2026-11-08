@@ -3,7 +3,7 @@ layout: work-page.njk
 title: Tingbogen
 categories:
   - Books
-order: 6
+order: 4
 image: /images/tingbogen5.png
 imageAlt: Tingbogen book design
 intro: Book design for Tingbogen by architect Gitte Juul, published by the Danish Architectural Press. Folding diverse photography together with the prose to create a cohesive and well-designed reading experience. Typography, layout and production design for the publication, in close dialogue with the author and publisher.

@@ -4,7 +4,7 @@ title: True Viking
 categories:
   - Photography
   - Websites
-order: 10
+order: 7
 image: /images/true-viking1.png
 imageAlt: True viking
 video: /images/true-viking4.mp4

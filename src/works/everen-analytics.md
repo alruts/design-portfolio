@@ -4,7 +4,7 @@ title: Everen Analytics
 categories:
   - Identity
   - Websites
-order: 8
+order: 5
 image: /images/everen1.png
 imageAlt: Everen Analytics brand identity and website design
 intro: Developed the brand identity and digital experience for Everen Analytics, a specialist actuarial analytics platform. The project centred on creating a clear and considered visual language that makes complex financial data feel intuitive and accessible. Bringing together a distinctive geometric identity and a refined digital interface, the design balances precision with simplicity. A restrained colour palette, thoughtful typography and structured layouts create a calm and cohesive experience, translating technical complexity into clarity and confidence.

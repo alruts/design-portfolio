@@ -3,7 +3,7 @@ layout: work-page.njk
 title: Untitled
 categories:
   - Visual Arts
-order: 8
+order: 9
 image: /images/myndlo2.png
 imageAlt: Image art
 intro: Untitled was my final project at the Reykjavik School of Visual Arts. Using portraiture as a starting point, I explored herbal dyes, aged paper, and digital collage. The work brings together the organic and the digital, the tactile and the virtual, finding a quiet tension between the handmade and the screen-made.

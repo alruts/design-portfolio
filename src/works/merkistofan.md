@@ -3,7 +3,7 @@ layout: work-page.njk
 title: Merkistofan
 categories:
   - Identity
-order: 9
+order: 8
 image: /images/merkisstofan1.png
 imageAlt: Merkistofan logo design
 intro: Logo design for Merkistofan, developed while working at Kontor Reykjavík.
