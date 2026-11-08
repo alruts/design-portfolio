@@ -1,13 +1,25 @@
 <a class="work-card" href="{{ work.url | url }}">
   <div class="work-image-wrap">
-    <img
-      class="work-image"
-      src="{{ work.data.image | url }}"
-      alt="{{ work.data.imageAlt or work.data.title }}"
-      loading="lazy"
-      width="600"
-      height="400"
-    >
+    {% if work.data.video %}
+      <video
+        class="work-image"
+        src="{{ work.data.video | url }}"
+        poster="{{ (work.data.videoPoster or work.data.image) | url }}"
+        muted
+        playsinline
+        preload="none"
+        aria-hidden="true"
+      ></video>
+    {% else %}
+      <img
+        class="work-image"
+        src="{{ work.data.image | url }}"
+        alt="{{ work.data.imageAlt or work.data.title }}"
+        loading="lazy"
+        width="600"
+        height="400"
+      >
+    {% endif %}
   </div>
 
   <div class="work-meta">

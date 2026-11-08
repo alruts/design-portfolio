@@ -40,15 +40,32 @@ intro: Designed an exhibition for 3daysofdesign in Copenhagen, showcasing outsta
   </div>
 </div>
 
+<div class="w-grid" style="--cols:1">
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/samband12.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+</div>
+
+
+
 
 <div class="w-grid" style="--cols:2">
   <div class="w-cell">
     <figure class="w-image"><img src="{{ '/images/samband10.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
   </div>
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/samband11.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
+</div>
+
+<div class="w-grid" style="--cols:1">
+  <div class="w-cell">
+    <figure class="w-image"><img src="{{ '/images/samband13.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
+  </div>
 </div>
 
 
-</div>
+
 
 
 
@@ -64,3 +81,4 @@ intro: Designed an exhibition for 3daysofdesign in Copenhagen, showcasing outsta
   href="https://www.honnunarmidstod.is/ha-frettir/islensk-honnun-a-flugi---honnunarmars-a-keflavikur"
   target="_blank" rel="noopener noreferrer">here</a>.
 </p>
+</div>

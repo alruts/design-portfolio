@@ -19,7 +19,21 @@ layout: base.njk
   </div>
 
   <div class="work-gallery">
-    {% if gallery %}
+    {% if video %}
+      <figure class="gallery-hero">
+        <video
+          src="{{ video | url }}"
+          poster="{{ (videoPoster or image) | url }}"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+        >
+          Your browser does not support the video tag.
+        </video>
+      </figure>
+    {% elif gallery %}
       <figure class="gallery-hero">
         <img src="{{ gallery[0].src | url }}" alt="{{ gallery[0].alt or title }}" loading="eager">
       </figure>
