@@ -23,7 +23,7 @@ layout: base.njk
       <figure class="gallery-hero">
         <video
           src="{{ video | url }}"
-          poster="{{ (videoPoster or image) | url }}"
+          {% if videoPoster or image %}poster="{{ (videoPoster or image) | url }}"{% endif %}
           autoplay
           muted
           loop

@@ -1,13 +1,16 @@
 <a class="work-card" href="{{ work.url | url }}">
   <div class="work-image-wrap">
     {% if work.data.video %}
+      {% set animatedThumbnail = work.data.videoThumbnail == "animated" %}
       <video
         class="work-image"
         src="{{ work.data.video | url }}"
-        poster="{{ (work.data.videoPoster or work.data.image) | url }}"
+        {% if work.data.videoPoster or work.data.image %}poster="{{ (work.data.videoPoster or work.data.image) | url }}"{% endif %}
+        {% if animatedThumbnail %}autoplay{% endif %}
         muted
+        {% if animatedThumbnail %}loop{% endif %}
         playsinline
-        preload="none"
+        preload="{% if animatedThumbnail %}metadata{% else %}none{% endif %}"
         aria-hidden="true"
       ></video>
     {% else %}

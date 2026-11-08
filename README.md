@@ -89,6 +89,20 @@ src/images/
 
 That's it.
 
+### Video projects
+
+A project can use a video instead of an image for the homepage card and page hero. Add these fields to the front matter:
+
+```yaml
+video: /images/my-project.mp4
+videoPoster: /images/my-project-poster.png
+videoThumbnail: animated
+```
+
+- `video` — the MP4 shown in the page hero and used by the card.
+- `videoPoster` — a still image shown while the video loads. Optional but recommended.
+- `videoThumbnail` — set to `animated` to autoplay the video silently in the homepage card, or `static` (the default) to show only the poster frame.
+
 Eleventy automatically:
 
 1. Finds the Markdown file.

@@ -273,13 +273,14 @@ a {
   position: relative;
   overflow: hidden;
   background: var(--thumb-bg);
+  aspect-ratio: 3 / 2;
   transition: border-radius 0.2s;
 }
 
 .work-image {
   display: block;
   width: 100%;
-  aspect-ratio: 3 / 2;
+  height: 100%;
   object-fit: cover;
   transition: filter 0.2s;
 }
