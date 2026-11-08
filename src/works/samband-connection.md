@@ -41,7 +41,7 @@ intro: Designed an exhibition for 3daysofdesign in Copenhagen, showcasing outsta
 </div>
 
 
-<div class="w-grid" style="--cols:1">
+<div class="w-grid" style="--cols:2">
   <div class="w-cell">
     <figure class="w-image"><img src="{{ '/images/samband10.png' | url }}" alt="Augnablik poster" loading="lazy"></figure>
   </div>
